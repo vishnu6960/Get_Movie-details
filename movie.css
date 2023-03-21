@@ -7,6 +7,7 @@
   border: 1px solid black;
   height: auto;
   width: 100%;
+  /* background-color:gray; */
   display: flex;
   justify-items: center;
   align-items: center;
@@ -16,20 +17,13 @@
   border: 1px solid black;
   height: auto;
   display: flex;
-  justify-items: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.form{
-  flex-basis: 100%;
-  display: flex;
-  flex-wrap: nowrap;
+.form-control{
+  height: 50px;
 }
-
-@media screen and (max-width:650px)  {
-  .form{
-    max-width: 100%;
-    flex-wrap:wrap;
-    justify-content: center;
-  }
+.cards-container{
+  border: 1px solid blue;
+  height: auto;
 }
-/* css demo */
