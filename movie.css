@@ -1,0 +1,141 @@
+.main{
+  /* border: 1px solid black; */
+  height: auto;
+  width: 100%;
+}
+.row1{
+  /* border: 1px solid black; */
+  height: auto;
+  width: 100%;
+  /* background-color:gray; */
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.container{
+  flex-basis: 70%;
+  /* border: 1px solid black; */
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-control{
+  height: 50px;
+}
+
+
+
+#cards-container{
+  /* border: 1px solid black; */
+  max-width: 1500px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: row; */
+}
+.card {
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+}
+.card img{
+  height: 80%;
+}
+.card h2 {
+  font-size: 15px;
+  margin: 15px 5px;
+}
+
+.card p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.card div{
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row-reverse; */
+  justify-content: space-around;
+  line-height: 25px;
+}
+
+@media (min-width: 250px) {
+  .card {
+    /* max-width: 100%; */
+    flex-basis: 40%;
+    height: 300px;
+    
+    /* flex-grow: 1; */
+    /* margin-right: 2%;
+    margin-bottom: 20px; */
+  }
+  
+  .card div{
+    flex-wrap: wrap;
+  }
+  .card img{
+    height: 70%;
+  }
+}
+@media (min-width:400px){
+  .card{
+    flex-basis: 40%;
+    height: 400px;
+  }
+  .card div{
+    flex-wrap: nowrap;
+  }
+  .card img{
+    height: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    /* max-width: 100%; */
+    flex-basis: 30%;
+    /* flex-grow: 1; */
+    /* margin-right: 2%;
+    margin-bottom: 20px; */
+  }
+  .card img{
+    height: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    /* max-width: 100%; */
+    flex-basis: 23.3%;
+    /* flex-grow: 1; */
+  }
+  .card img{
+    height: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    /* max-width: 100%; */
+    flex-basis: 18.5%;
+    /* flex-grow: 1; */
+  }
+}
+@media (max-width: 250px) {
+  .card {
+    max-width: 100%;
+    /* flex-basis: %; */
+    /* flex-grow: 1; */
+  }
+  .card p{
+      font-size: 15px;
+  }
+  .card img{
+    height: 60%;
+  }
+}
