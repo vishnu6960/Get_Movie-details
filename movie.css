@@ -4,7 +4,7 @@
   width: 100%;
 }
 .row1{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: auto;
   width: 100%;
   /* background-color:gray; */
@@ -14,7 +14,7 @@
 }
 .container{
   flex-basis: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@
 
 
 #cards-container{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   max-width: 1500px;
   height: auto;
   display: flex;
@@ -36,7 +36,7 @@
   /* flex-direction: row; */
 }
 .card {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   padding: 10px;
