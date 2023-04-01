@@ -113,9 +113,7 @@
 
 @media (min-width: 992px) {
   .card {
-    /* max-width: 100%; */
-    flex-basis: 23.3%;
-    /* flex-grow: 1; */
+    flex-basis: 23.3%
   }
   .card img{
     height: 80%;
