@@ -57,6 +57,7 @@ function fetching(){
   fetch(`https://imdb8.p.rapidapi.com/title/v2/find?title=${x}&limit=40&sortArg=moviemeter%2Casc`, options)
     .then(response => response.json())
     .then(response => {
+      // console.log(response)
       var result = response.results
              
       result.forEach(element => {
