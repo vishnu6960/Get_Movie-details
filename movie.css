@@ -58,7 +58,6 @@
   margin-top: 10px;
 }
 .card div{
-  /* border: 1px solid black; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
